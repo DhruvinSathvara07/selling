@@ -1,0 +1,237 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+
+    ::selection {
+        background-color: black;
+        color: white;
+    }
+}
+
+/* Header Start  */
+.nav-item a {
+    font-family: "Mulish", sans-serif;
+}
+
+.box {
+    height: 5px;
+    width: 5px;
+    border: 2px solid orange;
+}
+
+#home {
+    color: orange;
+}
+
+#navlink {
+    transition: all 0.3s linear;
+
+    &:hover {
+        color: orange;
+    }
+}
+
+/* Header End  */
+
+/* Main Start  */
+
+/*HERO SECTION */
+.image-fluid {
+    background-image: url(../images/hero_2.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.505);
+    background-blend-mode: multiply;
+}
+
+.button,
+.button_second {
+    width: 175px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+    font-size: 13px;
+    margin-top: 30px;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid white;
+        font-weight: 800;
+    }
+}
+
+.button_second {
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 800;
+
+    &:hover {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+}
+
+/*HERO SECTION END*/
+
+/* OUR PRODUCTS SECTION START*/
+.card-body h5,
+.card-body .fa-solid {
+    transition: all 0.4s ease-in;
+}
+
+.card-body h5 {
+    &:hover {
+        color: orange !important;
+    }
+}
+
+.fa-solid {
+    &:hover {
+        color: red !important;
+    }
+}
+
+.button_cart {
+    width: 70px;
+    font-size: small;
+    font-weight: 800;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1.5px solid black;
+}
+
+.button_view {
+    width: 70px;
+    font-size: small;
+    font-weight: 900;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+}
+
+.button_cart,
+.button_view_details {
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        color: black;
+        background-color: white;
+    }
+}
+
+.button_view,
+.button_addtocart {
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.image_hover {
+    overflow: hidden;
+}
+
+/* 
+.image_hover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    transition: all 0.1s linear;
+    z-index: 999;
+}
+
+.image_hover:hover::before {
+    border: 3px solid #f16821;
+} */
+
+.image {
+    width: 350px;
+}
+
+.image_hover:hover .image {
+    transform: scale(1.3);
+    transition: all 0.4s linear;
+}
+
+/* OUR PRODUCTS SECTION END */
+
+.button_view_details {
+    width: 150px;
+    font-size: small;
+    font-weight: 800;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1.5px solid black;
+}
+
+.button_addtocart {
+    width: 150px;
+    font-size: small;
+    font-weight: 900;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+}
+
+.card-body .rounded-circle {
+    background-color: rgb(159, 156, 156);
+    width: 25px;
+}
+
+.card-body .rounded-circle {
+    transition: all 0.3s linear;
+
+    &:hover {
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+.president {
+    font-size: small;
+    color: rgba(128, 128, 128, 0.806);
+}
+
+.back {
+    background-color: #f8f9fa;
+}
+
+/*MAIN END*/
+
+/* FOOTER START  */
+.dark {
+    font-weight: 800;
+}
+
+.line_height {
+    line-height: 29px;
+}
+
+.icons i {
+    transition: all 0.3s linear;
+
+    &:hover {
+        color: black !important;
+    }
+}
+
+/*FOOTER END*/
